@@ -1,0 +1,216 @@
+{
+    "items": [
+        {
+            "icon": "",
+            "folder": "blocks-desert",
+            "uid": "block-particle-desert",
+            "type": "particle",
+            "name": "block particle desert",
+            "rubefile": "templates/yaya/block_particle.json",
+            "hidden": true
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-desert/brick.png",
+            "folder": "blocks-desert",
+            "uid": "brick-desert",
+            "type": "block",
+            "name": "brick desert",
+            "subtype": "mystery",
+            "rubefile": "templates/yaya/block_brick.json",
+            "destroyUid": "block-particle-desert",
+            "health": 10,
+            "static": true,
+            "childrenAllowed": [
+                {
+                    "uid": "spin_coin",
+                    "max": 10
+                },
+                {
+                    "uid": "coin",
+                    "max": 10
+                },
+                {
+                    "uid": "goombas",
+                    "max": 4
+                },
+                {
+                    "uid": "bomy",
+                    "max": 4
+                },
+                {
+                    "uid": "dyna",
+                    "max": 4
+                },
+                {
+                    "uid": "snail",
+                    "max": 4
+                },
+                {
+                    "uid": "superstar",
+                    "max": 4
+                },
+                {
+                    "uid": "health",
+                    "max": 4
+                },
+                {
+                    "uid": "rewardPellet",
+                    "max": 4
+                },
+                {
+                    "uid": "rewardrocket",
+                    "max": 4
+                },
+                {
+                    "uid": "rewardfireball",
+                    "max": 4
+                }
+                ,{
+                    "uid": "android",
+                    "max": 4
+                }
+            ]
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-desert/dirt.png",
+            "folder": "blocks-desert",
+            "uid": "dirt-desert",
+            "type": "block",
+            "name": "dirt desert",
+            "rubefile": "templates/yaya/block_dirt.json",
+            "static": true
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-desert/rock.png",
+            "folder": "blocks-desert",
+            "uid": "rock-desert",
+            "type": "block",
+            "name": "rock",
+            "rubefile": "templates/yaya/block_rock.json",
+            "static": true
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-desert/mystery1.png",
+            "folder": "blocks-desert",
+            "uid": "mystery-desert",
+            "type": "block",
+            "subtype": "mystery",
+            "name": "mystery",
+            "rubefile": "templates/yaya/block_mystery.json",
+            "destroyUid": "block-particle-desert",
+            "static": true,
+            "childrenAllowed": [
+                {
+                    "uid": "spin_coin",
+                    "max": 10,
+                    "defaultChild": true
+                },
+                {
+                    "uid": "coin",
+                    "max": 10
+                },
+                {
+                    "uid": "goombas",
+                    "max": 4
+                },
+                {
+                    "uid": "bomy",
+                    "max": 4
+                },
+                {
+                    "uid": "dyna",
+                    "max": 4
+                },
+                {
+                    "uid": "snail",
+                    "max": 4
+                },
+                {
+                    "uid": "superstar",
+                    "max": 4
+                },
+                {
+                    "uid": "health",
+                    "max": 4
+                },
+                {
+                    "uid": "rewardPellet",
+                    "max": 4
+                },
+                {
+                    "uid": "rewardrocket",
+                    "max": 4
+                },
+                {
+                    "uid": "rewardfireball",
+                    "max": 4
+                }
+                ,{
+                    "uid": "android",
+                    "max": 4
+                }
+            ],
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-desert/mystery0.png",
+                        "images/yaya/themes/mariox/blocks-desert/mystery1.png",
+                        "images/yaya/themes/mariox/blocks-desert/mystery2.png"
+                    ]
+                },
+                "dead": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-desert/mystery_used.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-desert/mystery_invis.png",
+            "uid": "mystery-desert-invis",
+            "base": "mystery-desert",
+            "rubefile": "templates/yaya/block_mystery_invis.json",
+            "hidden": false
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-desert/platform.png",
+            "folder": "blocks-desert",
+            "uid": "platform-desert",
+            "type": "block",
+            "subtype": "oneway",
+            "name": "platform desert",
+            "blockmoves": [
+                {
+                    "type": "UP_DOWN"
+                },
+                {
+                    "type": "LEFT_RIGHT"
+                },
+                {
+                    "type": "CIRCLE"
+                },
+                {
+                    "type": "NONE"
+                }
+            ],
+            "rubefile": "templates/yaya/block_platform.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-desert/spring0.png",
+            "folder": "blocks-desert",
+            "uid": "spring-desert",
+            "type": "block",
+            "subtype": "spring",
+            "name": "spring desert",
+            "rubefile": "templates/yaya/block_spring.json",
+            "max": 1,
+            "sprites": {
+                "makerIcon": "images/yaya/themes/mariox/blocks-desert/spring0.png",
+                "centerfull": "images/yaya/themes/mariox/blocks-desert/spring_center.png",
+                "centermid": "images/yaya/themes/mariox/blocks-desert/spring1.png",
+                "centerlow": "images/yaya/themes/mariox/blocks-desert/spring2.png"
+            }
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "items": [
+        {
+            "icon": "images/yaya/themes/mariox/backgrounds/bg1_icon.png",
+            "uid": "bgblack",
+            "name": "black background",
+            "color": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "rubefile": ""
+        },
+        {
+            "icon": "images/yaya/themes/mariox/backgrounds/bg0_icon.png",
+            "uid": "bgbrickybrick",
+            "file": "images/yaya/themes/mariox/backgrounds/bg0.png",
+            "name": "brickybrick background",
+            "color": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "rubefile": "",
+            "opacity": 128
+        },
+        {
+            "icon": "images/yaya/themes/mariox/backgrounds/bg2_icon.png",
+            "uid": "bgbluecloud",
+            "name": "blue background with clouds",
+            "file": "images/yaya/themes/mariox/backgrounds/bg2.png",
+            "rubefile": ""
+        },
+        {
+            "icon": "images/yaya/themes/mariox/backgrounds/bg3_icon.png",
+            "uid": "bgblue",
+            "name": "black background with cloud",
+            "file": "images/yaya/themes/mariox/backgrounds/bg3.png",
+            "rubefile": ""
+        },
+        {
+            "icon": "images/yaya/themes/mariox/backgrounds/bg4_icon.png",
+            "uid": "bgcave",
+            "name": "cave background",
+            "file": "images/yaya/themes/mariox/backgrounds/bg4.png",
+            "rubefile": ""
+        },
+        {
+            "icon": "images/yaya/themes/mariox/backgrounds/bg5_icon.png",
+            "uid": "bgcave2",
+            "name": "cave background2",
+            "file": "images/yaya/themes/mariox/backgrounds/bg5.png",
+            "rubefile": "",
+            "hidden": true
+        }
+    ]
+}

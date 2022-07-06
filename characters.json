@@ -1,0 +1,805 @@
+{
+    "items": [
+        {
+            "icon": "images/yaya/characters/mariox_small/boy0_icon.png",
+            "uid": "jaydn",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/boy0.png",
+                "plist": "images/yaya/characters/mariox_small/boy0.plist"
+            }
+        },
+        {
+            "template": "template_2",
+            "icon": "images/yaya/characters/mariox_small/hog_icon.png",
+            "uid": "hog",
+            "schema": 3,
+            "hidden": false,
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/hog.png",
+                "plist": "images/yaya/characters/mariox_small/hog.plist",
+                "jumpRoll": {
+                    "sprites": [
+                        "jumproll1",
+                        "jumproll2",
+                        "jumproll3",
+                        "jumproll4"
+                    ],
+                    "delay": 0.15
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/characters/mariox_small/mon_icon.png",
+            "uid": "monkey0",
+            "lockKeyXX": "L2",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/mon.png",
+                "plist": "images/yaya/characters/mariox_small/mon.plist"
+            }
+        },
+        {
+            "template": "template_2",
+            "icon": "images/yaya/characters/mariox_small/croc_icon.png",
+            "uid": "croc0",
+            "schema": 2,
+            "hiddenXX": true,
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/croc.png",
+                "plist": "images/yaya/characters/mariox_small/croc.plist"
+            }
+        },
+        {
+            "template": "template_2",
+            "icon": "images/yaya/characters/mariox_small/flame_icon.png",
+            "uid": "flame0",
+            "schema": 2,
+            "hiddenXX": true,
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/flame.png",
+                "plist": "images/yaya/characters/mariox_small/flame.plist"
+            }
+        },
+        {
+            "template": "template_2",
+            "icon": "images/yaya/characters/mariox_small/dragon_icon.png",
+            "uid": "dragon0",
+            "schema": 2,
+            "hiddenXX": true,
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/dragon.png",
+                "plist": "images/yaya/characters/mariox_small/dragon.plist"
+            }
+        },
+        {
+            "template": "template_2",
+            "icon": "images/yaya/characters/mariox_small/astr_icon.png",
+            "uid": "astronaut",
+            "schema": 3,
+            "hidden": false,
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/astr.png",
+                "plist": "images/yaya/characters/mariox_small/astr.plist"
+            }
+        },
+        {
+            "template": "template_2",
+            "icon": "images/yaya/characters/mariox_small/bird_icon.png",
+            "uid": "birdybird",
+            "schema": 3,
+            "hidden": false,
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/bird.png",
+                "plist": "images/yaya/characters/mariox_small/bird.plist"
+            }
+        },
+        {
+            "template": "template_2",
+            "icon": "images/yaya/characters/mariox_small/bigfoot_icon.png",
+            "uid": "bigfoot",
+            "schema": 3,
+            "hidden": false,
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/bigfoot.png",
+                "plist": "images/yaya/characters/mariox_small/bigfoot.plist"
+            }
+        },
+        {
+            "icon": "images/yaya/characters/mariox_small/boy1_icon.png",
+            "uid": "boy1",
+            "lockKey": "L3",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/boy1.png",
+                "plist": "images/yaya/characters/mariox_small/boy1.plist"
+            }
+        },
+        {
+            "icon": "images/yaya/characters/mariox_small/boy2_icon.png",
+            "uid": "boy2",
+            "lockKey": "L2",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/boy2.png",
+                "plist": "images/yaya/characters/mariox_small/boy2.plist"
+            }
+        },
+        {
+            "icon": "images/yaya/characters/mariox_small/boy3_icon.png",
+            "uid": "boy3",
+            "lockKey": "L2",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/boy3.png",
+                "plist": "images/yaya/characters/mariox_small/boy3.plist"
+            }
+        },
+        {
+            "icon": "images/yaya/characters/mariox_small/ninja0_icon.png",
+            "uid": "ninja0",
+            "lockKey": "L5",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/ninja0.png",
+                "plist": "images/yaya/characters/mariox_small/ninja0.plist"
+            }
+        },
+        {
+            "icon": "images/yaya/characters/mariox_small/ninja1_icon.png",
+            "uid": "ninja1",
+            "lockKey": "L2",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/ninja1.png",
+                "plist": "images/yaya/characters/mariox_small/ninja1.plist"
+            }
+        },
+        {
+            "icon": "images/yaya/characters/mariox_small/ninja2_icon.png",
+            "uid": "ninja2",
+            "lockKey": "L2",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/ninja2.png",
+                "plist": "images/yaya/characters/mariox_small/ninja2.plist"
+            }
+        },
+        {
+            "icon": "images/yaya/characters/mariox_small/ninja3_icon.png",
+            "uid": "ninja3",
+            "lockKey": "L2",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/ninja3.png",
+                "plist": "images/yaya/characters/mariox_small/ninja3.plist"
+            }
+        },
+        {
+            "icon": "images/yaya/characters/mariox_small/girl0_icon.png",
+            "uid": "girl0",
+            "lockKey": "L1",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/girl0.png",
+                "plist": "images/yaya/characters/mariox_small/girl0.plist"
+            }
+        },
+        {
+            "icon": "images/yaya/characters/mariox_small/girl1_icon.png",
+            "uid": "girl1",
+            "lockKey": "L2",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/girl1.png",
+                "plist": "images/yaya/characters/mariox_small/girl1.plist"
+            }
+        },
+        {
+            "icon": "images/yaya/characters/mariox_small/girl2_icon.png",
+            "uid": "girl2",
+            "lockKey": "L2",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/girl2.png",
+                "plist": "images/yaya/characters/mariox_small/girl2.plist"
+            }
+        },
+        {
+            "icon": "images/yaya/characters/mariox_small/girl3_icon.png",
+            "uid": "girl3",
+            "lockKey": "L2",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/girl3.png",
+                "plist": "images/yaya/characters/mariox_small/girl3.plist"
+            }
+        },
+        {
+            "icon": "images/yaya/characters/mariox_small/powerman0_icon.png",
+            "uid": "powerman0",
+            "lockKey": "L4",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/powerman0.png",
+                "plist": "images/yaya/characters/mariox_small/powerman0.plist"
+            }
+        },
+        {
+            "icon": "images/yaya/characters/mariox_small/powerman1_icon.png",
+            "uid": "powerman1",
+            "lockKey": "L2",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/powerman1.png",
+                "plist": "images/yaya/characters/mariox_small/powerman1.plist"
+            }
+        },
+        {
+            "icon": "images/yaya/characters/mariox_small/powerman2_icon.png",
+            "uid": "powerman2",
+            "lockKey": "L2",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/powerman2.png",
+                "plist": "images/yaya/characters/mariox_small/powerman2.plist"
+            }
+        },
+        {
+            "icon": "images/yaya/characters/mariox_small/powerman3_icon.png",
+            "uid": "powerman3",
+            "lockKey": "L2",
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/powerman3.png",
+                "plist": "images/yaya/characters/mariox_small/powerman3.plist"
+            }
+        },
+        {
+            "template": "template_frog",
+            "icon": "images/yaya/characters/mariox_small/frog_icon.png",
+            "uid": "frog",
+            "schema": 2,
+            "hidden": true,
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/frog.png",
+                "plist": "images/yaya/characters/mariox_small/frog.plist"
+            }
+        },
+        {
+            "template": "template_flappy",
+            "icon": "images/yaya/characters/mariox_small/flappy_icon.png",
+            "uid": "flappy_ride",
+            "schema": 3,
+            "hidden": true,
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/rides.png",
+                "plist": "images/yaya/characters/mariox_small/rides.plist"
+            }
+        },
+        {
+            "template": "template_ducky",
+            "icon": "images/yaya/characters/mariox_small/ducky_icon.png",
+            "uid": "ducky_ride",
+            "schema": 3,
+            "hidden": true,
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/rides.png",
+                "plist": "images/yaya/characters/mariox_small/rides.plist"
+            }
+        }
+    ],
+    "template": [
+        {
+            "icon": "images/yaya/characters/mariox_small/ninja2_icon.png",
+            "uid": "jaydn",
+            "health": 3,
+            "fxJump": "images/yaya/sounds/jump.mp3",
+            "maker": {
+                "objectMover": {
+                    "uid": "objmover",
+                    "scale": 2.5
+                }
+            },
+            "rubefile": "templates/yaya/hero.json",
+            "type": "hero",
+            "name": "Bad ass hero XXX",
+            "sounds": {
+                "appeal": "",
+                "dead": "",
+                "finishline": "",
+                "jump": "",
+                "powerup": "",
+                "shoot": ""
+            },
+            "projectileUid": "projectile_rocket",
+            "hidden": true,
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/ninja2.png",
+                "plist": "images/yaya/characters/mariox_small/ninja2.plist",
+                "jumpdust": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/misc/dust1.png",
+                        "images/yaya/themes/mariox/misc/dust2.png",
+                        "images/yaya/themes/mariox/misc/dust3.png",
+                        "images/yaya/themes/mariox/misc/dust4.png"
+                    ]
+                },
+                "forcefield": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/ff0.png",
+                        "images/yaya/themes/mariox/items/ff1.png",
+                        "images/yaya/themes/mariox/items/ff2.png",
+                        "images/yaya/themes/mariox/items/ff3.png"
+                    ]
+                },
+                "ride": {
+                    "sprites": [
+                        "18"
+                    ]
+                },
+                "move": {
+                    "sprites": [
+                        "0",
+                        "1",
+                        "2"
+                    ],
+                    "delay": 0.15
+                },
+                "movepush": {
+                    "sprites": [
+                        "14",
+                        "15"
+                    ],
+                    "delay": 0.15
+                },
+                "appeal": {
+                    "sprites": [
+                        "12"
+                    ]
+                },
+                "default": {
+                    "sprites": [
+                        "11"
+                    ]
+                },
+                "dead": {
+                    "sprites": [
+                        "13"
+                    ]
+                },
+                "jump": {
+                    "sprites": [
+                        "3"
+                    ]
+                },
+                "swim": {
+                    "sprites": [
+                        "7",
+                        "8",
+                        "9"
+                    ]
+                },
+                "swimpush": {
+                    "sprites": [
+                        "16",
+                        "17"
+                    ]
+                },
+                "mount": {
+                    "sprites": [
+                        "mount"
+                    ]
+                }
+            }
+        }
+    ],
+    "template_2": [
+        {
+            "icon": "images/yaya/characters/mariox_small/ninja2_icon.png",
+            "uid": "jaydn",
+            "health": 3,
+            "fxJump": "images/yaya/sounds/jump.mp3",
+            "maker": {
+                "objectMover": {
+                    "uid": "objmover",
+                    "scale": 2.5
+                }
+            },
+            "rubefile": "templates/yaya/hero.json",
+            "type": "hero",
+            "name": "Bad ass hero XXX",
+            "sounds": {
+                "appeal": "",
+                "dead": "",
+                "finishline": "",
+                "jump": "",
+                "powerup": "",
+                "shoot": ""
+            },
+            "projectileUid": "projectile_rocket",
+            "hidden": true,
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/ninja2.png",
+                "plist": "images/yaya/characters/mariox_small/ninja2.plist",
+                "jumpdust": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/misc/dust1.png",
+                        "images/yaya/themes/mariox/misc/dust2.png",
+                        "images/yaya/themes/mariox/misc/dust3.png",
+                        "images/yaya/themes/mariox/misc/dust4.png"
+                    ]
+                },
+                "forcefield": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/ff0.png",
+                        "images/yaya/themes/mariox/items/ff1.png",
+                        "images/yaya/themes/mariox/items/ff2.png",
+                        "images/yaya/themes/mariox/items/ff3.png"
+                    ]
+                },
+                "ride": {
+                    "sprites": [
+                        "18"
+                    ]
+                },
+                "move": {
+                    "sprites": [
+                        "run1",
+                        "run2",
+                        "run3",
+                        "run4"
+                    ],
+                    "delay": 0.15
+                },
+                "movepush": {
+                    "sprites": [
+                        "push1",
+                        "push2"
+                    ],
+                    "delay": 0.15
+                },
+                "appeal": {
+                    "sprites": [
+                        "appeal"
+                    ]
+                },
+                "default": {
+                    "sprites": [
+                        "standing"
+                    ]
+                },
+                "dead": {
+                    "sprites": [
+                        "dead"
+                    ]
+                },
+                "jump": {
+                    "sprites": [
+                        "jump"
+                    ]
+                },
+                "swim": {
+                    "sprites": [
+                        "swim1",
+                        "swim2",
+                        "swim3"
+                    ]
+                },
+                "swimpush": {
+                    "sprites": [
+                        "swimpush1",
+                        "swimpush2"
+                    ]
+                },
+                "mount": {
+                    "sprites": [
+                        "mount"
+                    ]
+                }
+            }
+        }
+    ],
+    "template_frog": [
+        {
+            "icon": "images/yaya/characters/mariox_small/ninja2_icon.png",
+            "uid": "jaydn",
+            "health": 3,
+            "fxJump": "images/yaya/sounds/jump.mp3",
+            "maker": {
+                "objectMover": {
+                    "uid": "objmover",
+                    "scale": 2.5
+                }
+            },
+            "rubefile": "templates/yaya/hero.json",
+            "type": "hero",
+            "name": "Bad ass hero XXX",
+            "sounds": {
+                "appeal": "",
+                "dead": "",
+                "finishline": "",
+                "jump": "",
+                "powerup": "",
+                "shoot": ""
+            },
+            "projectileUid": "projectile_rocket",
+            "hidden": true,
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/frog.png",
+                "plist": "images/yaya/characters/mariox_small/frog.plist",
+                "jumpdust": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/misc/dust1.png",
+                        "images/yaya/themes/mariox/misc/dust2.png",
+                        "images/yaya/themes/mariox/misc/dust3.png",
+                        "images/yaya/themes/mariox/misc/dust4.png"
+                    ]
+                },
+                "forcefield": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/ff0.png",
+                        "images/yaya/themes/mariox/items/ff1.png",
+                        "images/yaya/themes/mariox/items/ff2.png",
+                        "images/yaya/themes/mariox/items/ff3.png"
+                    ]
+                },
+                "move": {
+                    "sprites": [
+                        "runJump1",
+                        "runJump2",
+                        "runJump3"
+                    ],
+                    "delay": 0.15
+                },
+                "movepush": {
+                    "sprites": [
+                        "runJump1",
+                        "runJump2",
+                        "runJump3"
+                    ],
+                    "delay": 0.15
+                },
+                "appeal": {
+                    "sprites": [
+                        "stand"
+                    ]
+                },
+                "default": {
+                    "sprites": [
+                        "stand"
+                    ]
+                },
+                "dead": {
+                    "sprites": [
+                        "stand"
+                    ]
+                },
+                "jump": {
+                    "repeat": false,
+                    "sprites": [
+                        "runJump1",
+                        "runJump2"
+                    ],
+                    "delay": 0.01
+                },
+                "swim": {
+                    "sprites": [
+                        "swim1",
+                        "swim2",
+                        "swim3"
+                    ]
+                },
+                "swimpush": {
+                    "sprites": [
+                        "swim1",
+                        "swim2",
+                        "swim3"
+                    ]
+                }
+            }
+        }
+    ],
+    "template_flappy": [
+        {
+            "icon": "images/yaya/characters/mariox_small/ninja2_icon.png",
+            "uid": "jaydn",
+            "health": 3,
+            "fxJump": "images/yaya/sounds/jump.mp3",
+            "destroyUid": "block-particle-grassy",
+            "maker": {
+                "objectMover": {
+                    "uid": "objmover",
+                    "scale": 2.5
+                }
+            },
+            "rubefile": "templates/yaya/hero.json",
+            "type": "hero",
+            "name": "Bad ass hero XXX",
+            "sounds": {
+                "appeal": "",
+                "dead": "",
+                "finishline": "",
+                "jump": "",
+                "powerup": "",
+                "shoot": ""
+            },
+            "projectileUid": "projectile_rocket",
+            "hidden": true,
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/frog.png",
+                "plist": "images/yaya/characters/mariox_small/frog.plist",
+                "jumpdust": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/misc/dust1.png",
+                        "images/yaya/themes/mariox/misc/dust2.png",
+                        "images/yaya/themes/mariox/misc/dust3.png",
+                        "images/yaya/themes/mariox/misc/dust4.png"
+                    ]
+                },
+                "forcefield": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/ff0.png",
+                        "images/yaya/themes/mariox/items/ff1.png",
+                        "images/yaya/themes/mariox/items/ff2.png",
+                        "images/yaya/themes/mariox/items/ff3.png"
+                    ]
+                },
+                "move": {
+                    "sprites": [
+                        "flappyb1",
+                        "flappyb2",
+                        "flappyb3"
+                    ],
+                    "delay": 0.15
+                },
+                "movepush": {
+                    "sprites": [
+                        "flappyb1",
+                        "flappyb2",
+                        "flappyb3"
+                    ],
+                    "delay": 0.15
+                },
+                "appeal": {
+                    "sprites": [
+                        "flappyb1",
+                        "flappyb2",
+                        "flappyb3"
+                    ]
+                },
+                "default": {
+                    "sprites": [
+                        "flappyb1",
+                        "flappyb2",
+                        "flappyb3"
+                    ]
+                },
+                "dead": {
+                    "sprites": [
+                        "flappyb1"
+                    ]
+                },
+                "jump": {
+                    "sprites": [
+                        "flappyb1",
+                        "flappyb2",
+                        "flappyb3"
+                    ],
+                    "delay": 0.15
+                },
+                "swim": {
+                    "sprites": [
+                        "flappyb1",
+                        "flappyb2",
+                        "flappyb3"
+                    ]
+                },
+                "swimpush": {
+                    "sprites": [
+                        "flappyb1",
+                        "flappyb2",
+                        "flappyb3"
+                    ]
+                }
+            }
+        }
+    ],
+    "template_ducky": [
+        {
+            "icon": "images/yaya/characters/mariox_small/ninja2_icon.png",
+            "uid": "jaydn",
+            "health": 3,
+            "fxJump": "images/yaya/sounds/jump.mp3",
+            "maker": {
+                "objectMover": {
+                    "uid": "objmover",
+                    "scale": 2.5
+                }
+            },
+            "rubefile": "templates/yaya/hero.json",
+            "type": "hero",
+            "name": "Bad ass hero XXX",
+            "sounds": {
+                "appeal": "",
+                "dead": "",
+                "finishline": "",
+                "jump": "",
+                "powerup": "",
+                "shoot": ""
+            },
+            "projectileUid": "projectile_rocket",
+            "hidden": true,
+            "animations": {
+                "spritesheet": "images/yaya/characters/mariox_small/frog.png",
+                "plist": "images/yaya/characters/mariox_small/frog.plist",
+                "jumpdust": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/misc/dust1.png",
+                        "images/yaya/themes/mariox/misc/dust2.png",
+                        "images/yaya/themes/mariox/misc/dust3.png",
+                        "images/yaya/themes/mariox/misc/dust4.png"
+                    ]
+                },
+                "forcefield": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/ff0.png",
+                        "images/yaya/themes/mariox/items/ff1.png",
+                        "images/yaya/themes/mariox/items/ff2.png",
+                        "images/yaya/themes/mariox/items/ff3.png"
+                    ]
+                },
+                "move": {
+                    "sprites": [
+                        "duck1",
+                        "duck2",
+                        "duck3"
+                    ],
+                    "delay": 0.15
+                },
+                "movepush": {
+                    "sprites": [
+                        "duck1",
+                        "duck2",
+                        "duck3"
+                    ],
+                    "delay": 0.15
+                },
+                "appeal": {
+                    "sprites": [
+                        "duck1",
+                        "duck2",
+                        "duck3"
+                    ]
+                },
+                "default": {
+                    "sprites": [
+                        "duck1",
+                        "duck2",
+                        "duck3"
+                    ]
+                },
+                "dead": {
+                    "sprites": [
+                        "duck1"
+                    ]
+                },
+                "jump": {
+                    "sprites": [
+                        "duck1",
+                        "duck2",
+                        "duck3"
+                    ],
+                    "delay": 0.15
+                },
+                "swim": {
+                    "sprites": [
+                        "duck1",
+                        "duck2",
+                        "duck3"
+                    ]
+                },
+                "swimpush": {
+                    "sprites": [
+                        "duck1",
+                        "duck2",
+                        "duck3"
+                    ]
+                }
+            }
+        }
+    ]
+}

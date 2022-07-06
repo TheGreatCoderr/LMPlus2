@@ -1,0 +1,220 @@
+{
+    "items": [
+        {
+            "icon": "",
+            "folder": "blocks-grassy",
+            "uid": "block-particle-grassy",
+            "type": "particle",
+            "name": "block particle grassy",
+            "rubefile": "templates/yaya/block_particle.json",
+            "hidden": true
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-grassy/brick.png",
+            "folder": "blocks-grassy",
+            "uid": "brick-grassy",
+            "type": "block",
+            "subtype": "mystery",
+            "name": "brick",
+            "rubefile": "templates/yaya/block_brick.json",
+            "destroyUid": "block-particle-grassy",
+            "health": 10,
+            "static": true,
+            "childrenAllowed": [
+                {
+                    "uid": "spin_coin",
+                    "max": 10
+                },
+                {
+                    "uid": "coin",
+                    "max": 10
+                },
+                {
+                    "uid": "goombas",
+                    "max": 4
+                },
+                {
+                    "uid": "bomy",
+                    "max": 4
+                },
+                {
+                    "uid": "dyna",
+                    "max": 4
+                },
+                {
+                    "uid": "snail",
+                    "max": 4
+                },
+                {
+                    "uid": "superstar",
+                    "max": 4
+                },
+                {
+                    "uid": "health",
+                    "max": 4
+                },
+                {
+                    "uid": "rewardPellet",
+                    "max": 4
+                },
+                {
+                    "uid": "rewardrocket",
+                    "max": 4
+                },
+                {
+                    "uid": "rewardfireball",
+                    "max": 4
+                }
+                ,{
+                    "uid": "android",
+                    "max": 4
+                }
+            ]
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-grassy/dirt.png",
+            "folder": "blocks-grassy",
+            "uid": "dirt-grassy",
+            "type": "block",
+            "name": "dirt",
+            "rubefile": "templates/yaya/block_dirt.json",
+            "static": true,
+            "sprites": {
+                "top": "images/yaya/themes/mariox/blocks-grassy/dirt.png",
+                "center": "images/yaya/themes/mariox/blocks-grassy/dirt_center.png"
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-grassy/rock.png",
+            "folder": "blocks-grassy",
+            "uid": "rock-grassy",
+            "type": "block",
+            "name": "rock",
+            "rubefile": "templates/yaya/block_rock.json",
+            "static": true
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-grassy/mystery1.png",
+            "folder": "blocks-grassy",
+            "uid": "mystery-grassy",
+            "type": "block",
+            "subtype": "mystery",
+            "name": "mystery",
+            "rubefile": "templates/yaya/block_mystery.json",
+            "destroyUid": "block-particle-grassy",
+            "static": true,
+            "childrenAllowed": [
+                {
+                    "uid": "spin_coin",
+                    "max": 10,
+                    "defaultChild": true
+                },
+                {
+                    "uid": "coin",
+                    "max": 10
+                },
+                {
+                    "uid": "goombas",
+                    "max": 4
+                },
+                {
+                    "uid": "bomy",
+                    "max": 4
+                },
+                {
+                    "uid": "dyna",
+                    "max": 4
+                },
+                {
+                    "uid": "snail",
+                    "max": 4
+                },
+                {
+                    "uid": "superstar",
+                    "max": 4
+                },
+                {
+                    "uid": "health",
+                    "max": 4
+                },
+                {
+                    "uid": "rewardPellet",
+                    "max": 4
+                },
+                {
+                    "uid": "rewardrocket",
+                    "max": 4
+                },
+                {
+                    "uid": "rewardfireball",
+                    "max": 4
+                }
+                ,{
+                    "uid": "android",
+                    "max": 4
+                }
+            ],
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-grassy/mystery0.png",
+                        "images/yaya/themes/mariox/blocks-grassy/mystery1.png",
+                        "images/yaya/themes/mariox/blocks-grassy/mystery2.png"
+                    ]
+                },
+                "dead": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-grassy/mystery_used.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-grassy/mystery_invis.png",
+            "uid": "mystery-grassy-invis",
+            "base": "mystery-grassy",
+            "rubefile": "templates/yaya/block_mystery_invis.json",
+            "hidden": false
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-grassy/platform.png",
+            "folder": "blocks-grassy",
+            "uid": "platform-grassy",
+            "type": "block",
+            "subtype": "oneway",
+            "name": "platform",
+            "blockmoves": [
+                {
+                    "type": "UP_DOWN"
+                },
+                {
+                    "type": "LEFT_RIGHT"
+                },
+                {
+                    "type": "CIRCLE"
+                },
+                {
+                    "type": "NONE"
+                }
+            ],
+            "rubefile": "templates/yaya/block_platform.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-grassy/spring0.png",
+            "folder": "blocks-grassy",
+            "uid": "spring-grassy",
+            "type": "block",
+            "subtype": "spring",
+            "name": "spring",
+            "rubefile": "templates/yaya/block_spring.json",
+            "max": 1,
+            "sprites": {
+                "makerIcon": "images/yaya/themes/mariox/blocks-grassy/spring0.png",
+                "centerfull": "images/yaya/themes/mariox/blocks-grassy/spring_center.png",
+                "centermid": "images/yaya/themes/mariox/blocks-grassy/spring1.png",
+                "centerlow": "images/yaya/themes/mariox/blocks-grassy/spring2.png"
+            }
+        }
+    ]
+}

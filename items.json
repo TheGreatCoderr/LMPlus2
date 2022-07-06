@@ -1,0 +1,983 @@
+{
+    "items": [
+        {
+            "icon": "images/yaya/themes/mariox/items/coin1.png",
+            "uid": "coin",
+            "type": "item",
+            "subtype": "reward",
+            "name": "money money",
+            "static": true,
+            "fxDead": "images/yaya/sounds/coin.mp3",
+            "rewards": [
+                {
+                    "type": "coin",
+                    "amount": 10
+                }
+            ],
+            "rubefile": "templates/yaya/item_coin.json",
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/coin0.png",
+                        "images/yaya/themes/mariox/items/coin1.png",
+                        "images/yaya/themes/mariox/items/coin2.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/spin_coin1.png",
+            "uid": "spin_coin",
+            "type": "item",
+            "subtype": "reward",
+            "name": "money 2 money 2",
+            "static": true,
+            "fxDead": "images/yaya/sounds/coin.mp3",
+            "rewards": [
+                {
+                    "type": "coin",
+                    "amount": 10
+                }
+            ],
+            "rubefile": "templates/yaya/item_spincoin.json",
+            "animations": {
+                "default": {
+                    "delay": 0.2,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/spin_coin0.png",
+                        "images/yaya/themes/mariox/items/spin_coin1.png",
+                        "images/yaya/themes/mariox/items/spin_coin2.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/star0.png",
+            "uid": "superstar",
+            "type": "item",
+            "subtype": "reward",
+            "lockKey": "L1",
+            "fxDead": "images/yaya/sounds/powerup.mp3",
+            "name": "temp invincible",
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "invincible",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_superstar.json",
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/star0.png",
+                        "images/yaya/themes/mariox/items/star1.png",
+                        "images/yaya/themes/mariox/items/star2.png",
+                        "images/yaya/themes/mariox/items/star3.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/checkpointInActive0.png",
+            "uid": "checkpoint",
+            "type": "item",
+            "subtype": "checkpoint",
+            "name": "checkpoint",
+            "fxDead": "images/yaya/sounds/checkpoint.wav",
+            "static": true,
+            "max": 3,
+            "rewards": [
+                {
+                    "type": "checkpoint",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_checkpoint.json",
+            "animations": {
+                "default": {
+                    "delay": 0.4,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/checkpointInActive0.png",
+                        "images/yaya/themes/mariox/items/checkpointInActive1.png"
+                    ]
+                },
+                "active": {
+                    "delay": 0.4,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/checkpointActive0.png",
+                        "images/yaya/themes/mariox/items/checkpointActive1.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/finish0.png",
+            "uid": "finish",
+            "type": "item",
+            "subtype": "finish",
+            "name": "wohoo finish",
+            "static": true,
+            "hidden": true,
+            "rewards": [
+                {
+                    "type": "finish",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_finish.json",
+            "maker": {
+                "objectMover": {
+                    "uid": "objmover",
+                    "scale": 2.5
+                }
+            },
+            "animations": {
+                "default": {
+                    "delay": 0.4,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/finish0.png",
+                        "images/yaya/themes/mariox/items/finish1.png",
+                        "images/yaya/themes/mariox/items/finish2.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/start0.png",
+            "uid": "startflag",
+            "type": "item",
+            "subtype": "startflag",
+            "name": "wohoo finish",
+            "static": true,
+            "hidden": true,
+            "rewards": [
+                {
+                    "type": "startflag",
+                    "amount": 0
+                }
+            ],
+            "rubefile": "templates/yaya/item_start.json"
+        },
+        {
+            "icon": "",
+            "uid": "objmover",
+            "type": "objmover",
+            "name": "obj mover",
+            "rubefile": "templates/yaya/maker_objmover.json",
+            "hidden": true
+        },
+        {
+            "icon": "",
+            "uid": "projectile_crystal",
+            "type": "projectile",
+            "name": "throw throw throw",
+            "hidden": true,
+            "rubefile": "templates/yaya/projectile_throw.json",
+            "hitdamage": 1,
+            "fxStart": "images/yaya/sounds/throw.mp3"
+        },
+        {
+            "icon": "",
+            "uid": "projectile_hatchet",
+            "type": "projectile",
+            "name": "throw throw throw",
+            "hidden": true,
+            "rubefile": "templates/yaya/projectile_throw_hatchet.json",
+            "hitdamage": 1,
+            "fxStart": "images/yaya/sounds/throw.mp3"
+        },
+        {
+            "icon": "",
+            "uid": "projectile_generic",
+            "type": "projectile",
+            "name": "shoot shoot enemy",
+            "hidden": true,
+            "rubefile": "templates/yaya/projectile_generic.json",
+            "hitdamage": 1,
+            "fxStart": "images/yaya/sounds/shoot.mp3"
+        },
+        {
+            "icon": "",
+            "uid": "projectile_fireball",
+            "type": "projectile",
+            "name": "shoot shoot enemy",
+            "hidden": true,
+            "rubefile": "templates/yaya/projectile_fireball.json",
+            "hitdamage": 1,
+            "fxStart": "images/yaya/sounds/shoot.mp3",
+            "props": {
+                "projectileIsBullet": false
+            },
+            "animations": {
+                "spritesheet": "images/yaya/themes/mariox/misc/fireballSpritesheet.png",
+                "default": {
+                    "spritesheet_start": 0,
+                    "spritesheet_end": 3,
+                    "delay": 0.15
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/health.png",
+            "uid": "health",
+            "type": "item",
+            "subtype": "reward",
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "name": "restore health meter",
+            "lockKey": "L2",
+            "behaviors": [
+                {
+                    "type": "move",
+                    "velx": -4
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "health",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_health.json",
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/health.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "",
+            "uid": "projectile_pellet",
+            "type": "projectile",
+            "name": "shoot shoot",
+            "hidden": true,
+            "rubefile": "templates/yaya/projectile_pellet.json",
+            "hitdamage": 1,
+            "fxStart": "images/yaya/sounds/dangerFire.mp3",
+            "animations": {
+                "spritesheet": "images/yaya/themes/mariox/misc/pelletSpritesheet.png",
+                "default": {
+                    "spritesheet_start": 0,
+                    "spritesheet_end": 2,
+                    "delay": 0.1
+                }
+            }
+        },
+        {
+            "icon": "",
+            "uid": "projectile_fireDragon",
+            "type": "projectile",
+            "name": "shoot shoot",
+            "hidden": true,
+            "rubefile": "templates/yaya/projectile_fireDragon.json",
+            "hitdamage": 1,
+            "fxStart": "images/yaya/sounds/dangerFire.mp3",
+            "animations": {
+                "spritesheet": "images/yaya/themes/mariox/misc/pelletSpritesheet.png",
+                "default": {
+                    "spritesheet_start": 0,
+                    "spritesheet_end": 2,
+                    "delay": 0.1
+                }
+            }
+        },
+        {
+            "icon": "",
+            "uid": "projectile_fireDragon2x",
+            "type": "projectile",
+            "name": "shoot shoot",
+            "hidden": true,
+            "rubefile": "templates/yaya/projectile_fireDragon2x.json",
+            "hitdamage": 1,
+            "fxStart": "images/yaya/sounds/dangerFire.mp3",
+            "animations": {
+                "spritesheet": "images/yaya/themes/mariox/misc/pelletSpritesheet.png",
+                "default": {
+                    "spritesheet_start": 0,
+                    "spritesheet_end": 2,
+                    "delay": 0.1
+                }
+            }
+        },
+        {
+            "icon": "",
+            "uid": "projectile_rocket",
+            "type": "projectile",
+            "name": "shoot shoot",
+            "hidden": true,
+            "rubefile": "templates/yaya/projectile_rocket.json",
+            "fxStart": "images/yaya/sounds/rocket-fire.mp3",
+            "hitdamage": 1,
+            "animations": {
+                "default": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/misc/rocket0.png",
+                        "images/yaya/themes/mariox/misc/rocket1.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "",
+            "uid": "projectile_railgun",
+            "type": "projectile",
+            "name": "shoot shoot",
+            "hidden": true,
+            "rubefile": "templates/yaya/projectile_railgun.json",
+            "fxStart": "images/yaya/sounds/rocket-fire.mp3",
+            "hitdamage": 1,
+            "animations": {
+                "default": {
+                    "delay": 0.05,
+                    "sprites": [
+                        "images/yaya/themes/mariox/armor/bullets/bullet1.png",
+                        "images/yaya/themes/mariox/armor/bullets/bullet2.png",
+                        "images/yaya/themes/mariox/armor/bullets/bullet3.png",
+                        "images/yaya/themes/mariox/armor/bullets/bullet4.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "",
+            "uid": "projectile_cannonball",
+            "type": "projectile",
+            "name": "shoot shoot",
+            "hidden": true,
+            "rubefile": "templates/yaya/projectile_cannonball.json",
+            "rubefile2x": "templates/yaya/projectile_cannonball2x.json",
+            "fxStart": "images/yaya/sounds/rocket-fire.mp3",
+            "hitdamage": 1
+        },
+        {
+            "icon": "",
+            "uid": "projectile_pirateCannonball",
+            "type": "projectile",
+            "name": "shoot shoot",
+            "hidden": true,
+            "rubefile": "templates/yaya/projectile_pirateCannonball.json",
+            "fxStart": "images/yaya/sounds/rocket-fire.mp3",
+            "hitdamage": 1
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/fireball.png",
+            "uid": "rewardfireball",
+            "type": "item",
+            "subtype": "reward",
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "name": "temp fireball",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "projectile",
+                    "uid": "projectile_fireball",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_fireball.json",
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/fireball.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/pellet.png",
+            "uid": "rewardPellet",
+            "type": "item",
+            "subtype": "reward",
+            "name": "temp pellet",
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "projectile",
+                    "uid": "projectile_pellet",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_pellet.json",
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/pellet.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/rocket.png",
+            "uid": "rewardrocket",
+            "type": "item",
+            "subtype": "reward",
+            "name": "temp rocket",
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "lockKey": "L2",
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "projectile",
+                    "uid": "projectile_rocket",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_rocket.json",
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/rocket.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/arrow0.png",
+            "uid": "arrow",
+            "type": "item",
+            "subtype": "rotate",
+            "name": "arrow",
+            "rubefile": "templates/yaya/item_arrow.json",
+            "rubefile2x": "templates/yaya/item_arrow2x.json",
+            "hidden": false,
+            "static": true,
+            "rotate": true,
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/arrow0.png",
+                        "images/yaya/themes/mariox/items/arrow1.png",
+                        "images/yaya/themes/mariox/items/arrow2.png",
+                        "images/yaya/themes/mariox/items/arrow3.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/aircraft0.png",
+            "uid": "flying_plant",
+            "type": "item",
+            "subtype": "aircraft",
+            "name": "aircraft aircraft",
+            "hidden": false,
+            "rubefile": "templates/yaya/item_aircraft0.json",
+            "destroyUid": "block-particle-grassy",
+            "hitdamage": 100,
+            "max": 10,
+            "animations": {
+                "default": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/aircraft0.png"
+                    ],
+                    "delay": 0.1
+                },
+                "transform": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/aircraft0.png",
+                        "images/yaya/themes/mariox/items/aircraft1.png",
+                        "images/yaya/themes/mariox/items/aircraft2.png",
+                        "images/yaya/themes/mariox/items/aircraft3.png"
+                    ],
+                    "delay": 0.2
+                },
+                "running": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/aircraft4.png",
+                        "images/yaya/themes/mariox/items/aircraft5.png",
+                        "images/yaya/themes/mariox/items/aircraft6.png"
+                    ],
+                    "delay": 0.07
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/cupcopter0.png",
+            "uid": "cupcopter",
+            "type": "item",
+            "subtype": "aircraft",
+            "name": "cupcopter",
+            "hidden": false,
+            "rubefile": "templates/yaya/item_aircraft1.json",
+            "destroyUid": "block-particle-desert",
+            "hitdamage": 100,
+            "max": 10,
+            "schema": 4,
+            "animations": {
+                "default": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/cupcopter0.png",
+                        "images/yaya/themes/mariox/items/cupcopter1.png",
+                        "images/yaya/themes/mariox/items/cupcopter2.png",
+                        "images/yaya/themes/mariox/items/cupcopter3.png"
+                    ],
+                    "delay": 0.07
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/tank.png",
+            "uid": "tank",
+            "type": "item",
+            "subtype": "tank",
+            "name": "tank",
+            "hidden": false,
+            "rubefile": "templates/yaya/item_aircraft_tank.json",
+            "destroyUid": "block-particle-desert",
+            "hitdamage": 100,
+            "health": 5,
+            "max": 10,
+            "schema": 4,
+            "animations": {
+                "track": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/armor/tank/tankbottom1.png",
+                        "images/yaya/themes/mariox/armor/tank/tankbottom2.png",
+                        "images/yaya/themes/mariox/armor/tank/tankbottom3.png"
+                    ],
+                    "delay": 0.07
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/ufo.png",
+            "uid": "flying_ufo",
+            "type": "item",
+            "subtype": "aircraft",
+            "name": "ufo ufo",
+            "hidden": false,
+            "rubefile": "templates/yaya/item_aircraft_ufo.json",
+            "destroyUid": "block-particle-desert",
+            "hitdamage": 100,
+            "max": 10,
+            "lockKeyXX": "L7",
+            "animations": {
+                "spritesheet": "images/yaya/themes/mariox/items/ufo_spritesheet.png",
+                "default": {
+                    "spritesheet_start": 0,
+                    "spritesheet_end": 3,
+                    "delay": 0.08
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/frog.png",
+            "uid": "rewardFrog",
+            "type": "item",
+            "subtype": "reward",
+            "name": "temp frog",
+            "schema": 2,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "ride",
+                    "uid": "frog",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_frog.json",
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/frog.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/flappy.png",
+            "uid": "rewardFlappy",
+            "type": "item",
+            "subtype": "reward",
+            "name": "temp flappy",
+            "hidden": false,
+            "schema": 3,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "ride",
+                    "uid": "flappy_ride",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_flappy.json",
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/flappy.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/ducky.png",
+            "uid": "rewardDucky",
+            "type": "item",
+            "subtype": "reward",
+            "name": "temp ducky",
+            "hidden": false,
+            "schema": 3,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "ride",
+                    "uid": "ducky_ride",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_ducky.json",
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/ducky.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "",
+            "folder": "",
+            "uid": "particle-star-disappear",
+            "type": "particle",
+            "name": "disappear particle star",
+            "rubefile": "templates/yaya/__effect_starDisappear.json",
+            "hidden": true,
+            "animations": {
+                "spritesheet": "images/yaya/themes/mariox/effects/star_disappear_anim.png",
+                "default": {
+                    "spritesheet_start": 0,
+                    "spritesheet_end": 11,
+                    "delay": 0.08
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/warp0.png",
+            "uid": "teleport_warp",
+            "max": 2,
+            "createAfterProcess": true,
+            "type": "item",
+            "subtype": "teleport",
+            "name": "teleport",
+            "hidden": false,
+            "rubefile": "templates/yaya/item_teleport_warp.json",
+            "schema": 3,
+            "animations": {
+                "default": {
+                    "delay": 0.20,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/warp0.png",
+                        "images/yaya/themes/mariox/items/warp1.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/warp0Yellow.png",
+            "uid": "teleport_warp_yellow",
+            "max": 2,
+            "createAfterProcess": true,
+            "type": "item",
+            "subtype": "teleport",
+            "name": "teleport",
+            "hidden": false,
+            "rubefile": "templates/yaya/item_teleport_warp_yellow.json",
+            "schema": 3,
+            "animations": {
+                "default": {
+                    "delay": 0.20,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/warp0Yellow.png",
+                        "images/yaya/themes/mariox/items/warp1Yellow.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/teleport_green_0.png",
+            "uid": "teleport_green",
+            "max": 2,
+            "createAfterProcess": true,
+            "type": "item",
+            "subtype": "teleport",
+            "name": "teleport",
+            "hidden": false,
+            "rubefile": "templates/yaya/item_teleport_green.json",
+            "schema": 3,
+            "props": {
+                "offsetY": 0.5
+            },
+            "animations": {
+                "default": {
+                    "delay": 0.20,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/teleport_green_0.png",
+                        "images/yaya/themes/mariox/items/teleport_green_1.png",
+                        "images/yaya/themes/mariox/items/teleport_green_2.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/teleport_purple_0.png",
+            "uid": "teleport_purple",
+            "max": 2,
+            "createAfterProcess": true,
+            "type": "item",
+            "subtype": "teleport",
+            "name": "teleport",
+            "hidden": false,
+            "rubefile": "templates/yaya/item_teleport_purple.json",
+            "schema": 3,
+            "props": {
+                "offsetY": 0.5
+            },
+            "animations": {
+                "default": {
+                    "delay": 0.20,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/teleport_purple_0.png",
+                        "images/yaya/themes/mariox/items/teleport_purple_1.png",
+                        "images/yaya/themes/mariox/items/teleport_purple_2.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/door1.png",
+            "uid": "teleport_door1",
+            "max": 2,
+            "createAfterProcess": true,
+            "type": "item",
+            "subtype": "door",
+            "name": "teleport door1",
+            "hidden": false,
+            "rubefile": "templates/yaya/item_teleport_door1.json",
+            "schema": 3,
+            "props": {
+                "placeOffsetX": 0,
+                "placeOffsetY": 0
+            },
+            "animations": {
+                "default": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/door1/0.png"
+                    ]
+                },
+                "open": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/door1/7.png"
+                    ]
+                },
+                "unlock": {
+                    "delay": 0.20,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/door1/1.png",
+                        "images/yaya/themes/mariox/items/door1/2.png",
+                        "images/yaya/themes/mariox/items/door1/3.png",
+                        "images/yaya/themes/mariox/items/door1/4.png",
+                        "images/yaya/themes/mariox/items/door1/5.png",
+                        "images/yaya/themes/mariox/items/door1/6.png",
+                        "images/yaya/themes/mariox/items/door1/7.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/door2.png",
+            "uid": "teleport_door2",
+            "max": 2,
+            "createAfterProcess": true,
+            "type": "item",
+            "subtype": "door",
+            "name": "teleport door2",
+            "hidden": false,
+            "rubefile": "templates/yaya/item_teleport_door2.json",
+            "schema": 3,
+            "props": {
+                "placeOffsetX": 0,
+                "placeOffsetY": 0
+            },
+            "animations": {
+                "default": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/door2/0.png"
+                    ]
+                },
+                "open": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/door2/7.png"
+                    ]
+                },
+                "unlock": {
+                    "delay": 0.20,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/door2/1.png",
+                        "images/yaya/themes/mariox/items/door2/2.png",
+                        "images/yaya/themes/mariox/items/door2/3.png",
+                        "images/yaya/themes/mariox/items/door2/4.png",
+                        "images/yaya/themes/mariox/items/door2/5.png",
+                        "images/yaya/themes/mariox/items/door2/6.png",
+                        "images/yaya/themes/mariox/items/door2/7.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/key.png",
+            "uid": "teleport_key",
+            "max": 10,
+            "type": "item",
+            "subtype": "reward",
+            "rewards": [
+                {
+                    "type": "key",
+                    "amount": 1
+                }
+            ],
+            "name": "teleport key",
+            "hidden": false,
+            "static": true,
+            "rubefile": "templates/yaya/item_teleport_key.json",
+            "schema": 3
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/message.png",
+            "uid": "message",
+            "max": 10,
+            "type": "item",
+            "subtype": "message",
+            "name": "message",
+            "hidden": false,
+            "static": true,
+            "rubefile": "templates/yaya/item_message.json",
+            "schema": 3
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/jetpack/jetpack.png",
+            "uid": "rewardJetpack",
+            "type": "item",
+            "subtype": "reward",
+            "name": "jetpack",
+            "schema": 3,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "jetpack",
+                    "uid": "rewardJetpack",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_jetpack.json",
+            "animations": {
+                "off": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/jetpack/jetpack0.png"
+                    ]
+                },
+                "on": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/jetpack/jetpack1.png",
+                        "images/yaya/themes/mariox/items/jetpack/jetpack2.png",
+                        "images/yaya/themes/mariox/items/jetpack/jetpack3.png"
+                    ]
+                }
+            }
+        }
+    ]
+}

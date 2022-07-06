@@ -1,0 +1,12 @@
+{
+    "items": [
+        {
+            "icon": "",
+            "uid": "block-particle",
+            "type": "particle",
+            "name": "block particle",
+            "rubefile": "templates/yaya/block_particle.json",
+            "hidden": true
+        }
+    ]
+}

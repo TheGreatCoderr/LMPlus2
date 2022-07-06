@@ -1,0 +1,340 @@
+{
+    "items": [
+        {
+            "icon": "images/yaya/themes/mariox/items/white_ball.png",
+            "uid": "heroCustom1",
+            "type": "item",
+            "subtype": "reward",
+            "name": "heroCustom",
+            "schema": 3,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "heroCustom",
+                    "uid": "jaydn",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_hero_custom.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/white_ball.png",
+            "uid": "heroCustom2",
+            "type": "item",
+            "subtype": "reward",
+            "name": "heroCustom",
+            "schema": 3,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "heroCustom",
+                    "uid": "ninja0",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_hero_custom.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/white_ball.png",
+            "uid": "heroCustom3",
+            "type": "item",
+            "subtype": "reward",
+            "name": "heroCustom",
+            "schema": 3,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "heroCustom",
+                    "uid": "girl0",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_hero_custom.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/white_ball.png",
+            "uid": "heroCustom4",
+            "type": "item",
+            "subtype": "reward",
+            "name": "heroCustom",
+            "schema": 3,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "heroCustom",
+                    "uid": "powerman0",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_hero_custom.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/white_ball.png",
+            "uid": "heroCustom5",
+            "type": "item",
+            "subtype": "reward",
+            "name": "heroCustom",
+            "schema": 3,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "heroCustom",
+                    "uid": "monkey0",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_hero_custom.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/white_ball.png",
+            "uid": "heroCustom6",
+            "type": "item",
+            "subtype": "reward",
+            "name": "heroCustom",
+            "schema": 3,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "heroCustom",
+                    "uid": "croc0",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_hero_custom.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/white_ball.png",
+            "uid": "heroCustom7",
+            "type": "item",
+            "subtype": "reward",
+            "name": "heroCustom",
+            "schema": 3,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "heroCustom",
+                    "uid": "flame0",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_hero_custom.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/white_ball.png",
+            "uid": "heroCustom8",
+            "type": "item",
+            "subtype": "reward",
+            "name": "heroCustom",
+            "schema": 3,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "heroCustom",
+                    "uid": "dragon0",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_hero_custom.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/white_ball.png",
+            "uid": "heroCustom9",
+            "type": "item",
+            "subtype": "reward",
+            "name": "heroCustom",
+            "schema": 3,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "heroCustom",
+                    "uid": "astronaut",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_hero_custom.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/white_ball.png",
+            "uid": "heroCustom10",
+            "type": "item",
+            "subtype": "reward",
+            "name": "heroCustom",
+            "schema": 3,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "heroCustom",
+                    "uid": "birdybird",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_hero_custom.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/white_ball.png",
+            "uid": "heroCustom11",
+            "type": "item",
+            "subtype": "reward",
+            "name": "heroCustom",
+            "schema": 3,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "heroCustom",
+                    "uid": "bigfoot",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_hero_custom.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/items/white_ball.png",
+            "uid": "heroCustom12",
+            "type": "item",
+            "subtype": "reward",
+            "name": "heroCustom",
+            "schema": 3,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "hitdamage": 1,
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "heroCustom",
+                    "uid": "hog",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_hero_custom.json"
+        }
+    ]
+}

@@ -1,0 +1,718 @@
+{
+    "items": [
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/cloud.png",
+            "folder": "blocks-generic",
+            "uid": "platform-cloud",
+            "type": "block",
+            "subtype": "oneway",
+            "name": "cloud block",
+            "XXhidden": true,
+            "rubefile": "templates/yaya/block_cloud.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/bridge.png",
+            "folder": "blocks-generic",
+            "uid": "platform-bridge",
+            "type": "block",
+            "subtype": "bridge",
+            "name": "platform bridge",
+            "XXhidden": true,
+            "rubefile": "templates/yaya/block_bridge.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-desert/water2.png",
+            "folder": "blocks-desert",
+            "uid": "water-desert",
+            "type": "block",
+            "subtype": "water",
+            "name": "water water",
+            "rubefile": "templates/yaya/block_water.json",
+            "fxStart": "images/yaya/sounds/enter_water.mp3",
+            "static": true,
+            "sprites": {
+                "top": "images/yaya/themes/mariox/blocks-desert/water2.png",
+                "center": "images/yaya/themes/mariox/blocks-desert/water_center.png"
+            },
+            "props": {
+                "opacity": 0.5
+            },
+            "animations": {
+                "top": {
+                    "delay": 0.5,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-desert/water1.png",
+                        "images/yaya/themes/mariox/blocks-desert/water2.png",
+                        "images/yaya/themes/mariox/blocks-desert/water3.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "",
+            "folder": "blocks-generic",
+            "uid": "block-particle-gray",
+            "type": "particle",
+            "name": "block particle gray",
+            "rubefile": "templates/yaya/block_particle.json",
+            "hidden": true
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/spikes.png",
+            "folder": "blocks-generic",
+            "uid": "spikes-generic",
+            "type": "block",
+            "subtype": "enemy",
+            "name": "generic spikes YOYO",
+            "rubefile": "templates/yaya/block_spikes.json",
+            "static": true,
+            "animations": {
+                "default": {
+                    "delay": 0.5,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/spikes.png",
+                        "images/yaya/themes/mariox/blocks-generic/spikes1.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/launcher.png",
+            "uid": "launcher-generic",
+            "type": "block",
+            "subtype": "launcher",
+            "name": "generic block that lauches projecttiles",
+            "rubefile": "templates/yaya/block_launcher.json",
+            "projectileUid": "projectile_pirateCannonball",
+            "destroyUid": "block-particle-grassy",
+            "health": 6,
+            "static": true,
+            "sprites": {
+                "top": "images/yaya/themes/mariox/blocks-generic/launcher.png",
+                "center": "images/yaya/themes/mariox/blocks-generic/launcher_center.png"
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/boulder.png",
+            "folder": "blocks-generic",
+            "uid": "boulder-generic",
+            "type": "dynamicitem",
+            "subtype": "breakable",
+            "name": "generic boulder YOYO",
+            "destroyUid": "block-particle-gray",
+            "health": 10,
+            "rubefile": "templates/yaya/block_boulder.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/crate.png",
+            "folder": "blocks-generic",
+            "uid": "crate-generic",
+            "type": "dynamicitem",
+            "subtype": "breakable",
+            "name": "generic crate YOYO",
+            "destroyUid": "block-particle-desert",
+            "health": 10,
+            "rubefile": "templates/yaya/block_crate.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/rocketplatform1.png",
+            "folder": "blocks-generic",
+            "uid": "rocketplatform",
+            "type": "block",
+            "subtype": "rocket",
+            "name": "rocketplatform",
+            "static": true,
+            "lockKey": "L2",
+            "animations": {
+                "on": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/rocketplatform0.png",
+                        "images/yaya/themes/mariox/blocks-generic/rocketplatform1.png"
+                    ]
+                },
+                "off": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/rocketplatform.png"
+                    ]
+                }
+            },
+            "blockmoves": [
+                {
+                    "type": "UP_DOWN"
+                }
+            ],
+            "rubefile": "templates/yaya/block_rocketplatform.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/crumblingPlatB1.png",
+            "folder": "blocks-generic",
+            "uid": "crumblingplatform",
+            "type": "block",
+            "subtype": "crumbling",
+            "name": "crumblingplatform",
+            "static": true,
+            "hidden": true,
+            "animations": {
+                "on": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/crumblingPlatB1.png",
+                        "images/yaya/themes/mariox/blocks-generic/crumblingPlatB2.png",
+                        "images/yaya/themes/mariox/blocks-generic/crumblingPlatB3.png",
+                        "images/yaya/themes/mariox/blocks-generic/crumblingPlatB4.png"
+                    ]
+                },
+                "off": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/crumblingPlatB1.png"
+                    ]
+                }
+            },
+            "rubefile": "templates/yaya/block_crumblingplatform.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/cannon.png",
+            "folder": "blocks-generic",
+            "uid": "rotatablecannon",
+            "type": "block",
+            "subtype": "rotatablecannon",
+            "projectileUid": "projectile_cannonball",
+            "name": "rotatable-cannon",
+            "rotate": true,
+            "animations": {
+                "fire": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/cannon1.png",
+                        "images/yaya/themes/mariox/blocks-generic/cannon2.png",
+                        "images/yaya/themes/mariox/blocks-generic/cannon3.png",
+                        "images/yaya/themes/mariox/blocks-generic/cannon4.png"
+                    ]
+                },
+                "default": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/cannon1.png"
+                    ]
+                }
+            },
+            "rubefile": "templates/yaya/block_rotatable_cannon.json",
+            "rubefile2x": "templates/yaya/block_rotatable_cannon2x.json"
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/lava0.png",
+            "folder": "blocks-generic",
+            "uid": "lava-generic",
+            "type": "block",
+            "subtype": "enemy",
+            "name": "lava",
+            "rubefile": "templates/yaya/enemy_lava.json",
+            "static": true,
+            "sprites": {
+                "top": "images/yaya/themes/mariox/blocks-generic/lava0.png",
+                "center": "images/yaya/themes/mariox/blocks-generic/lava_center0.png"
+            },
+            "animations": {
+                "top": {
+                    "delay": 0.5,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/lava0.png",
+                        "images/yaya/themes/mariox/blocks-generic/lava1.png"
+                    ]
+                },
+                "center": {
+                    "delay": 0.5,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/lava_center0.png",
+                        "images/yaya/themes/mariox/blocks-generic/lava_center1.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/burnerBlock_mru.png",
+            "folder": "blocks-generic",
+            "uid": "burnerBlock",
+            "type": "block",
+            "subtype": "burner",
+            "name": "burner block",
+            "static": true,
+            "schema": 2,
+            "fxStart": "images/yaya/sounds/dangerFire.mp3",
+            "rubefile": "templates/yaya/block_burnerblock.json",
+            "rubefile2x": "templates/yaya/block_burnerblock2x.json",
+            "animations": {
+                "spritesheet": "images/yaya/themes/mariox/blocks-generic/burnerBlocks.png",
+                "default": {
+                    "spritesheet_start": 0,
+                    "spritesheet_end": 0,
+                    "delay": 0.08
+                },
+                "preburn": {
+                    "spritesheet_start": 1,
+                    "spritesheet_end": 1,
+                    "delay": 0.08
+                },
+                "burn": {
+                    "spritesheet_start": 2,
+                    "spritesheet_end": 2,
+                    "delay": 0.08
+                },
+                "postburn": {
+                    "spritesheet_start": 3,
+                    "spritesheet_end": 3,
+                    "delay": 0.08
+                },
+                "flameburn": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/burnerFlames0.png",
+                        "images/yaya/themes/mariox/blocks-generic/burnerFlames1.png",
+                        "images/yaya/themes/mariox/blocks-generic/burnerFlames2.png"
+                    ],
+                    "delay": 0.14
+                },
+                "flameburn_repeatable": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/burnerFlames1.png",
+                        "images/yaya/themes/mariox/blocks-generic/burnerFlames2.png"
+                    ],
+                    "delay": 0.14
+                },
+                "flameburnout": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/burnerFlames3.png",
+                        "images/yaya/themes/mariox/blocks-generic/burnerFlames4.png"
+                    ],
+                    "delay": 0.20
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/crumblingPlatB1.png",
+            "folder": "blocks-generic",
+            "uid": "crumblingPlat",
+            "type": "block",
+            "subtype": "crumbling",
+            "name": "crumbling block",
+            "static": true,
+            "schema": 2,
+            "rubefile": "templates/yaya/block_crumbling.json",
+            "animations": {
+                "default": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/crumblingPlatB1.png"
+                    ]
+                },
+                "crumbling": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/crumblingPlatB2.png",
+                        "images/yaya/themes/mariox/blocks-generic/crumblingPlatB3.png",
+                        "images/yaya/themes/mariox/blocks-generic/crumblingPlatB4.png"
+                    ],
+                    "delay": 0.14
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/moveblocks3.png",
+            "folder": "blocks-generic",
+            "uid": "conveyor",
+            "type": "block",
+            "subtype": "conveyor",
+            "name": "conveyor block",
+            "static": true,
+            "hidden": false,
+            "schema": 3,
+            "rubefile": "templates/yaya/block_conveyor.json",
+            "animations": {
+                "default": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/moveblocks1.png",
+                        "images/yaya/themes/mariox/blocks-generic/moveblocks2.png",
+                        "images/yaya/themes/mariox/blocks-generic/moveblocks3.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/belt1.png",
+            "folder": "blocks-generic",
+            "uid": "conveyor_belt",
+            "type": "block",
+            "subtype": "conveyor",
+            "name": "conveyor block",
+            "static": true,
+            "hidden": false,
+            "schema": 3,
+            "rubefile": "templates/yaya/block_conveyor_belt.json",
+            "animations": {
+                "default": {
+                    "delay": 0.18,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/belt1.png",
+                        "images/yaya/themes/mariox/blocks-generic/belt2.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/musicGreen3.png",
+            "folder": "blocks-generic",
+            "uid": "musicGreen",
+            "type": "block",
+            "subtype": "music",
+            "fxStart": "images/yaya/sounds/note_c1s.mp3",
+            "name": "music green block",
+            "static": true,
+            "hidden": false,
+            "schema": 3,
+            "rubefile": "templates/yaya/block_music.json",
+            "animations": {
+                "default": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/musicGreen3.png"
+                    ]
+                },
+                "on": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/musicGreen4.png",
+                        "images/yaya/themes/mariox/blocks-generic/musicBase.png",
+                        "images/yaya/themes/mariox/blocks-generic/musicGreen2.png",
+                        "images/yaya/themes/mariox/blocks-generic/musicGreen3.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/musicRed3.png",
+            "folder": "blocks-generic",
+            "uid": "musicRed",
+            "type": "block",
+            "subtype": "music",
+            "fxStart": "images/yaya/sounds/note_a1s.mp3",
+            "name": "music red block",
+            "static": true,
+            "hidden": false,
+            "schema": 3,
+            "rubefile": "templates/yaya/block_music.json",
+            "animations": {
+                "default": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/musicRed3.png"
+                    ]
+                },
+                "on": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/musicRed4.png",
+                        "images/yaya/themes/mariox/blocks-generic/musicBase.png",
+                        "images/yaya/themes/mariox/blocks-generic/musicRed2.png",
+                        "images/yaya/themes/mariox/blocks-generic/musicRed3.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/musicBlue3.png",
+            "folder": "blocks-generic",
+            "uid": "musicBlue",
+            "type": "block",
+            "subtype": "music",
+            "fxStart": "images/yaya/sounds/note_d1s.mp3",
+            "name": "music blue block",
+            "static": true,
+            "hidden": false,
+            "schema": 3,
+            "rubefile": "templates/yaya/block_music.json",
+            "animations": {
+                "default": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/musicBlue3.png"
+                    ]
+                },
+                "on": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/musicBlue4.png",
+                        "images/yaya/themes/mariox/blocks-generic/musicBase.png",
+                        "images/yaya/themes/mariox/blocks-generic/musicBlue2.png",
+                        "images/yaya/themes/mariox/blocks-generic/musicBlue3.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/musicGray3.png",
+            "folder": "blocks-generic",
+            "uid": "musicGray",
+            "type": "block",
+            "subtype": "music",
+            "fxStart": "images/yaya/sounds/note_f1s.mp3",
+            "name": "music gray block",
+            "static": true,
+            "hidden": false,
+            "schema": 3,
+            "rubefile": "templates/yaya/block_music.json",
+            "animations": {
+                "default": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/musicGray3.png"
+                    ]
+                },
+                "on": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/musicGray4.png",
+                        "images/yaya/themes/mariox/blocks-generic/musicBase.png",
+                        "images/yaya/themes/mariox/blocks-generic/musicGray2.png",
+                        "images/yaya/themes/mariox/blocks-generic/musicGray3.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/musicYellow3.png",
+            "folder": "blocks-generic",
+            "uid": "musicYellow",
+            "type": "block",
+            "subtype": "music",
+            "fxStart": "images/yaya/sounds/note_g1s.mp3",
+            "name": "music yellow block",
+            "static": true,
+            "hidden": false,
+            "schema": 3,
+            "rubefile": "templates/yaya/block_music.json",
+            "animations": {
+                "default": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/musicYellow3.png"
+                    ]
+                },
+                "on": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/musicYellow4.png",
+                        "images/yaya/themes/mariox/blocks-generic/musicBase.png",
+                        "images/yaya/themes/mariox/blocks-generic/musicYellow2.png",
+                        "images/yaya/themes/mariox/blocks-generic/musicYellow3.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/colorBlock.png",
+            "folder": "blocks-generic",
+            "uid": "colorBlock",
+            "type": "block",
+            "subtype": "",
+            "name": "color block",
+            "static": true,
+            "hidden": true,
+            "schema": 3,
+            "rubefile": "templates/yaya/block_color.json",
+            "animations": {
+                "default": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/colorBlock.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/electrodes_mru.png",
+            "folder": "blocks-generic",
+            "uid": "electrode",
+            "type": "block",
+            "subtype": "electrode",
+            "name": "electrode",
+            "rotate": true,
+            "hidden": false,
+            "rubefile": "templates/yaya/block_electrodes.json",
+            "rubefile2x": "templates/yaya/block_electrodes2x.json",
+            "schema": 3,
+            "animations": {
+                "default": {
+                    "delay": 0.08,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/electric1.png",
+                        "images/yaya/themes/mariox/blocks-generic/electric2.png",
+                        "images/yaya/themes/mariox/blocks-generic/electric3.png",
+                        "images/yaya/themes/mariox/blocks-generic/electric4.png",
+                        "images/yaya/themes/mariox/blocks-generic/electric5.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/powerbeam_mru.png",
+            "folder": "blocks-generic",
+            "uid": "powerbeam",
+            "type": "block",
+            "subtype": "electrode",
+            "name": "electrode",
+            "rotate": true,
+            "hidden": false,
+            "rubefile": "templates/yaya/block_powerbeam.json",
+            "rubefile2x": "templates/yaya/block_powerbeam2x.json",
+            "schema": 3,
+            "animations": {
+                "default": {
+                    "delay": 0.08,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/powerbeam1.png",
+                        "images/yaya/themes/mariox/blocks-generic/powerbeam2.png",
+                        "images/yaya/themes/mariox/blocks-generic/powerbeam3.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/ferriswheel.png",
+            "folder": "blocks-generic",
+            "uid": "ferriswheel",
+            "type": "block",
+            "props": {
+                "zOrder": 8
+            },
+            "subtype": "complexblock",
+            "name": "ferriswheel",
+            "hidden": false,
+            "rubefile": "templates/yaya/block_rotatingplatform.json",
+            "tiletype": 1,
+            "schema": 4
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/wood_swing.png",
+            "folder": "blocks-generic",
+            "uid": "wood_swing",
+            "type": "block",
+            "props": {
+                "zOrder": 8
+            },
+            "subtype": "complexblock",
+            "name": "wood_swing",
+            "hidden": false,
+            "rubefile": "templates/yaya/block_block_swing.json",
+            "tiletype": 1,
+            "schema": 4
+        },
+        {
+            "icon": "images/yaya/themes/mariox/pipes/gpipein.png",
+            "folder": "blocks-generic",
+            "uid": "pipeinout",
+            "type": "block",
+            "props": {
+                "placeOffsetX": 0,
+                "placeOffsetY": 1,
+                "zOrder": 45,
+                "bodyAngleByOnTouch": 90
+            },
+            "subtype": "complexblock",
+            "name": "pipeinout",
+            "hidden": false,
+            "rubefile": "templates/yaya/pipe_inout.json",
+            "tiletype": 1,
+            "canLayer": true,
+            "schema": 4
+        },
+        {
+            "icon": "images/yaya/themes/mariox/pipes/gpipemid.png",
+            "folder": "blocks-generic",
+            "uid": "pipemid",
+            "type": "block",
+            "props": {
+                "placeOffsetX": 0,
+                "placeOffsetY": 1,
+                "zOrder": 45,
+                "bodyAngleByOnTouch": 90
+            },
+            "subtype": "complexblock",
+            "name": "pipemid",
+            "hidden": false,
+            "rubefile": "templates/yaya/pipe_mid.json",
+            "tiletype": 1,
+            "canLayer": true,
+            "schema": 4
+        },
+        {
+            "icon": "images/yaya/themes/mariox/pipes/gpipecorner.png",
+            "folder": "blocks-generic",
+            "uid": "pipecorner",
+            "type": "block",
+            "props": {
+                "placeOffsetX": 0,
+                "placeOffsetY": 1,
+                "zOrder": 45,
+                "bodyAngleByOnTouch": 90
+            },
+            "subtype": "complexblock",
+            "name": "pipecorner",
+            "hidden": false,
+            "rubefile": "templates/yaya/pipe_corner.json",
+            "tiletype": 1,
+            "canLayer": true,
+            "schema": 4
+        },
+        {
+            "icon": "images/yaya/themes/mariox/pipes/gpipe4.png",
+            "folder": "blocks-generic",
+            "uid": "pipe4way",
+            "type": "block",
+            "props": {
+                "placeOffsetX": 0,
+                "placeOffsetY": 1,
+                "zOrder": 45
+            },
+            "subtype": "complexblock",
+            "name": "pipe4way",
+            "hidden": false,
+            "rubefile": "templates/yaya/pipe_4way.json",
+            "tiletype": 1,
+            "canLayer": true,
+            "schema": 4
+        },
+        {
+            "icon": "images/yaya/themes/mariox/blocks-generic/skullBlock/skullBlock0.png",
+            "folder": "blocks-generic",
+            "uid": "skullBlock",
+            "type": "block",
+            "subtype": "skullBlock",
+            "name": "skullBlock",
+            "hidden": false,
+            "rubefile": "templates/yaya/enemy_blockSkull.json",
+            "schema": 4,
+            "animations": {
+                "default": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/skullBlock/skullBlock0.png"
+                    ]
+                },
+                "red": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/skullBlock/skullBlock1.png"
+                    ]
+                },
+                "attack": {
+                    "delay": 0.08,
+                    "sprites": [
+                        "images/yaya/themes/mariox/blocks-generic/skullBlock/skullBlock2.png",
+                        "images/yaya/themes/mariox/blocks-generic/skullBlock/skullBlock3.png",
+                        "images/yaya/themes/mariox/blocks-generic/skullBlock/skullBlock4.png"
+                    ]
+                }
+            }
+        }
+    ]
+}

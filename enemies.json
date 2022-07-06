@@ -1,0 +1,621 @@
+{
+    "items": [
+        {
+            "icon": "images/yaya/themes/mariox/mru/venus_mru.png",
+            "uid": "venus",
+            "type": "enemy",
+            "subtype": "stationary",
+            "name": "venus",
+            "rubefile": "templates/yaya/enemy_venus.json",
+            "rubefile2x": "templates/yaya/enemy_venus2x.json",
+            "destroyUid": "block-particle-grassy",
+            "health": 2,
+            "static": true,
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/venus0.png",
+                        "images/yaya/themes/mariox/enemies/venus1.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/enemies/goombas0.png",
+            "uid": "goombas",
+            "type": "enemy",
+            "subtype": "move",
+            "name": "aweseome goombas enemy",
+            "rubefile": "templates/yaya/enemy_goombas.json",
+            "rubefile2x": "templates/yaya/enemy_goombas2x.json",
+            "health": 2,
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/goombas0.png",
+                        "images/yaya/themes/mariox/enemies/goombas1.png"
+                    ]
+                },
+                "dead": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/goombas_dead.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/blockfireballs_mru.png",
+            "uid": "blockfireballs",
+            "type": "enemy",
+            "subtype": "blockfireballs",
+            "name": "blockfireballs",
+            "rubefile": "templates/yaya/enemy_blockfireballs.json",
+            "rubefile2x": "templates/yaya/enemy_blockfireballs2x.json",
+            "static": true,
+            "animations": {
+                "fireball": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/misc/fireball0.png",
+                        "images/yaya/themes/mariox/misc/fireball1.png",
+                        "images/yaya/themes/mariox/misc/fireball2.png",
+                        "images/yaya/themes/mariox/misc/fireball3.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/enemies/snail0.png",
+            "uid": "snail",
+            "type": "enemy",
+            "subtype": "bounceAndMove",
+            "name": "aweseome snail enemy",
+            "rubefile": "templates/yaya/enemy_snail.json",
+            "rubefile2x": "templates/yaya/enemy_snail2x.json",
+            "health": 2,
+            "animations": {
+                "default_wings": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/snail_wing0.png",
+                        "images/yaya/themes/mariox/enemies/snail_wing1.png"
+                    ]
+                },
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/snail0.png",
+                        "images/yaya/themes/mariox/enemies/snail1.png"
+                    ]
+                },
+                "dead": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/snail_dead0.png",
+                        "images/yaya/themes/mariox/enemies/snail_dead1.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/bee_mru.png",
+            "uid": "bee",
+            "type": "enemy",
+            "subtype": "bee",
+            "name": "aweseome bee enemy",
+            "rubefile": "templates/yaya/enemy_bee.json",
+            "rubefile2x": "templates/yaya/enemy_bee2x.json",
+            "projectileUid": "projectile_generic",
+            "static": true,
+            "health": 2,
+            "props": {
+                "projectileIsBullet": false
+            },
+            "blockmoves": [
+                {
+                    "type": "UP_DOWN"
+                },
+                {
+                    "type": "LEFT_RIGHT"
+                },
+                {
+                    "type": "CIRCLE"
+                }
+            ],
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/bee0.png",
+                        "images/yaya/themes/mariox/enemies/bee1.png"
+                    ]
+                },
+                "shoot": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/bee2.png",
+                        "images/yaya/themes/mariox/enemies/bee3.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/enemies/bomy2.png",
+            "uid": "bomy",
+            "type": "enemy",
+            "subtype": "bomydyna",
+            "name": "aweseome bomy enemy",
+            "rubefile": "templates/yaya/enemy_bomy.json",
+            "rubefile2x": "templates/yaya/enemy_bomy2x.json",
+            "health": 2,
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/bomy1.png",
+                        "images/yaya/themes/mariox/enemies/bomy2.png"
+                    ]
+                },
+                "dead": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/bomy1.png"
+                    ]
+                },
+                "sleep": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/bomy5.png"
+                    ]
+                },
+                "boom": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/bomyboom1.png",
+                        "images/yaya/themes/mariox/enemies/bomyboom2.png",
+                        "images/yaya/themes/mariox/enemies/bomyboom3.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/enemies/dyna1.png",
+            "uid": "dyna",
+            "type": "enemy",
+            "subtype": "bomydyna",
+            "name": "aweseome dyna enemy",
+            "rubefile": "templates/yaya/enemy_dyna.json",
+            "rubefile2x": "templates/yaya/enemy_dyna2x.json",
+            "health": 2,
+            "animations": {
+                "default": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/dyna1.png",
+                        "images/yaya/themes/mariox/enemies/dyna2.png"
+                    ]
+                },
+                "dead": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/dyna1.png"
+                    ]
+                },
+                "sleep": {
+                    "delay": 0.3,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/dyna5.png"
+                    ]
+                },
+                "boom": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/dynaboom1.png",
+                        "images/yaya/themes/mariox/enemies/dynaboom2.png",
+                        "images/yaya/themes/mariox/enemies/dynaboom3.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/enemies/blade.png",
+            "uid": "blade",
+            "type": "enemy",
+            "subtype": "blade",
+            "name": "blade",
+            "rotate": true,
+            "rubefile": "templates/yaya/enemy_blade.json",
+            "rubefile2x": "templates/yaya/enemy_blade2x.json",
+            "schema": 3,
+            "behaviors": [
+                {
+                    "type": "rotate",
+                    "velx": -3.5
+                }
+            ],
+            "static": true,
+            "hidden": false,
+            "animations": {
+                "default": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/blade.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/blade.png",
+            "uid": "bladeWithTrack",
+            "type": "enemy",
+            "subtype": "bladeWithTrack",
+            "rotate": true,
+            "name": "blade",
+            "rubefile": "templates/yaya/enemy_blade_with_track.json",
+            "rubefile2x": "templates/yaya/enemy_blade_with_track2x.json",
+            "schema": 3,
+            "behaviors": [
+                {
+                    "type": "rotate",
+                    "velx": -3.5
+                }
+            ],
+            "static": true,
+            "hidden": false,
+            "animations": {
+                "default": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/blade.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/saw.png",
+            "uid": "sawWithTrack",
+            "type": "enemy",
+            "subtype": "bladeWithTrack",
+            "rotate": true,
+            "name": "saw",
+            "rubefile": "templates/yaya/enemy_saw_with_track.json",
+            "rubefile2x": "templates/yaya/enemy_saw_with_track2x.json",
+            "schema": 3,
+            "behaviors": [
+                {
+                    "type": "rotate",
+                    "velx": -4.5
+                }
+            ],
+            "static": true,
+            "hidden": false,
+            "animations": {
+                "default": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/saw.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/enemies/thrumpred.png",
+            "uid": "thrumpred",
+            "type": "enemy",
+            "subtype": "thrump",
+            "name": "thrump",
+            "rubefile": "templates/yaya/enemy_thrump.json",
+            "rubefile2x": "templates/yaya/enemy_thrump2x.json",
+            "schema": 3,
+            "props": {
+                "placeOffsetX": 0,
+                "placeOffsetY": 0
+            },
+            "static": true,
+            "hidden": false,
+            "animations": {
+                "default": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/thrumpred.png"
+                    ]
+                },
+                "stomp": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/thrumpred1.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/enemies/thrumpblue.png",
+            "uid": "thrumpblue",
+            "type": "enemy",
+            "subtype": "thrump",
+            "name": "thrumpblue",
+            "rubefile": "templates/yaya/enemy_thrumpblue.json",
+            "rubefile2x": "templates/yaya/enemy_thrumpblue2x.json",
+            "schema": 3,
+            "props": {
+                "placeOffsetX": 0,
+                "placeOffsetY": 0
+            },
+            "static": true,
+            "hidden": false,
+            "animations": {
+                "default": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/thrumpblue.png"
+                    ]
+                },
+                "stomp": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/thrumpblue1.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/android.png",
+            "uid": "android",
+            "type": "enemy",
+            "subtype": "android",
+            "name": "aweseome android enemy",
+            "rubefile": "templates/yaya/enemy_android.json",
+            "rubefile2x": "templates/yaya/enemy_android2x.json",
+            "health": 2,
+            "schema": 3,
+            "animations": {
+                "dead": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/android/common.png",
+                        "images/yaya/themes/mariox/enemies/android/androiddeath2.png",
+                        "images/yaya/themes/mariox/enemies/android/androiddeath3.png",
+                        "images/yaya/themes/mariox/enemies/android/androiddeath4.png"
+                    ]
+                },
+                "run": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/android/androidrun2.png",
+                        "images/yaya/themes/mariox/enemies/android/common.png",
+                        "images/yaya/themes/mariox/enemies/android/androidrun4.png",
+                        "images/yaya/themes/mariox/enemies/android/common.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/flamingbubble.png",
+            "uid": "flamingbubble",
+            "type": "enemy",
+            "subtype": "flamingbubble",
+            "name": "bubble",
+            "schema": 3,
+            "rubefile": "templates/yaya/enemy_flamingbubble.json",
+            "rubefile2x": "templates/yaya/enemy_flamingbubble2x.json",
+            "fxStart": "images/yaya/sounds/dangerFire.mp3",
+            "animations": {
+                "spritesheet": "images/yaya/themes/mariox/misc/pelletSpritesheet.png",
+                "default": {
+                    "spritesheet_start": 0,
+                    "spritesheet_end": 2,
+                    "delay": 0.08
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/enemies/fish0.png",
+            "uid": "fishy",
+            "type": "enemy",
+            "subtype": "fishy",
+            "name": "fishy",
+            "schema": 3,
+            "health": 2,
+            "rubefile": "templates/yaya/enemy_fishy.json",
+            "rubefile2x": "templates/yaya/enemy_fishy2x.json",
+            "animations": {
+                "default": {
+                    "delay": 0.2,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/fish0.png",
+                        "images/yaya/themes/mariox/enemies/fish1.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/octrox.png",
+            "uid": "octrox",
+            "type": "enemy",
+            "subtype": "octrox",
+            "name": "octrox",
+            "health": 20,
+            "projectileUid": "projectile_crystal",
+            "rubefile": "templates/yaya/enemy_throwOctrox.json",
+            "rubefile2x": "templates/yaya/enemy_throwOctrox2x.json",
+            "schema": 4,
+            "animations": {
+                "forcefield": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/ff0.png",
+                        "images/yaya/themes/mariox/items/ff1.png",
+                        "images/yaya/themes/mariox/items/ff2.png",
+                        "images/yaya/themes/mariox/items/ff3.png"
+                    ]
+                },
+                "back": {
+                    "delay": 0.2,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/octrox/octrox0-0.png",
+                        "images/yaya/themes/mariox/enemies/octrox/octrox0-1.png",
+                        "images/yaya/themes/mariox/enemies/octrox/octrox0-2.png"
+                    ]
+                },
+                "forward": {
+                    "delay": 0.2,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/octrox/octrox0-3.png",
+                        "images/yaya/themes/mariox/enemies/octrox/octrox0-4.png",
+                        "images/yaya/themes/mariox/enemies/octrox/octrox0-5.png"
+                    ]
+                },
+                "shoot": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/octrox/octrox0-6.png",
+                        "images/yaya/themes/mariox/enemies/octrox/octrox0-7.png",
+                        "images/yaya/themes/mariox/enemies/octrox/octrox0-8.png",
+                        "images/yaya/themes/mariox/enemies/octrox/octrox0-9.png",
+                        "images/yaya/themes/mariox/enemies/octrox/octrox0-10.png"
+                    ]
+                },
+                "dead": {
+                    "delay": 0.2,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/octrox/octrox0-11.png",
+                        "images/yaya/themes/mariox/enemies/octrox/octrox0-12.png",
+                        "images/yaya/themes/mariox/enemies/octrox/octrox0-13.png",
+                        "images/yaya/themes/mariox/enemies/octrox/octrox0-14.png",
+                        "images/yaya/themes/mariox/enemies/octrox/octrox0-15.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/dragon.png",
+            "uid": "dragon",
+            "type": "enemy",
+            "subtype": "dragon",
+            "name": "dragon",
+            "health": 50,
+            "projectileUid": "projectile_fireDragon",
+            "rubefile": "templates/yaya/enemy_dragon.json",
+            "rubefile2x": "templates/yaya/enemy_dragon2x.json",
+            "schema": 4,
+            "animations": {
+                "forcefield": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/ff0.png",
+                        "images/yaya/themes/mariox/items/ff1.png",
+                        "images/yaya/themes/mariox/items/ff2.png",
+                        "images/yaya/themes/mariox/items/ff3.png"
+                    ]
+                },
+                "flap": {
+                    "delay": 0.2,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/dragon/dragon1.png",
+                        "images/yaya/themes/mariox/enemies/dragon/dragon2.png",
+                        "images/yaya/themes/mariox/enemies/dragon/dragon3.png",
+                        "images/yaya/themes/mariox/enemies/dragon/dragon1.png",
+                        "images/yaya/themes/mariox/enemies/dragon/dragon2.png",
+                        "images/yaya/themes/mariox/enemies/dragon/dragon4.png",
+                        "images/yaya/themes/mariox/enemies/dragon/dragon4.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/throwAlien.png",
+            "uid": "throwAlien",
+            "type": "enemy",
+            "subtype": "throw",
+            "name": "aweseome throwAlien enemy",
+            "rubefile": "templates/yaya/enemy_throwAlien.json",
+            "rubefile2x": "templates/yaya/enemy_throwAlien2x.json",
+            "health": 10,
+            "schema": 4,
+            "projectileUid": "projectile_crystal",
+            "animations": {
+                "dead": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/throwAlien/throwAlien4.png",
+                        "images/yaya/themes/mariox/enemies/throwAlien/throwAlien5.png",
+                        "images/yaya/themes/mariox/enemies/throwAlien/throwAlien6.png"
+                    ]
+                },
+                "run": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/throwAlien/throwAlien1.png",
+                        "images/yaya/themes/mariox/enemies/throwAlien/throwAlien2.png",
+                        "images/yaya/themes/mariox/enemies/throwAlien/throwAlien3.png",
+                        "images/yaya/themes/mariox/enemies/throwAlien/throwAlien0.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/mru/pirate.png",
+            "uid": "throwPirate",
+            "type": "enemy",
+            "subtype": "throw",
+            "name": "aweseome throwAlien enemy",
+            "rubefile": "templates/yaya/enemy_throwPirate.json",
+            "rubefile2x": "templates/yaya/enemy_throwPirate2x.json",
+            "health": 10,
+            "schema": 4,
+            "projectileUid": "projectile_hatchet",
+            "animations": {
+                "run": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/PirateBro2.png",
+                        "images/yaya/themes/mariox/enemies/PirateBro1.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/enemies/alienUFO/alienUFO_0.png",
+            "uid": "alienUFO",
+            "type": "enemy",
+            "subtype": "alienUFO",
+            "name": "alienUFO",
+            "health": 10,
+            "projectileUid": "projectile_crystal",
+            "rubefile": "templates/yaya/enemy_throwUFOAlien.json",
+            "rubefile2x": "templates/yaya/enemy_throwUFOAlien2x.json",
+            "schema": 4,
+            "animations": {
+                "forcefield": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/items/ff0.png",
+                        "images/yaya/themes/mariox/items/ff1.png",
+                        "images/yaya/themes/mariox/items/ff2.png",
+                        "images/yaya/themes/mariox/items/ff3.png"
+                    ]
+                },
+                "default": {
+                    "delay": 0.2,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/alienUFO/alienUFO_0.png",
+                        "images/yaya/themes/mariox/enemies/alienUFO/alienUFO_1.png",
+                        "images/yaya/themes/mariox/enemies/alienUFO/alienUFO_2.png",
+                        "images/yaya/themes/mariox/enemies/alienUFO/alienUFO_3.png"
+                    ]
+                },
+                "dead": {
+                    "delay": 0.2,
+                    "sprites": [
+                        "images/yaya/themes/mariox/enemies/alienUFO/alienUFO_4.png",
+                        "images/yaya/themes/mariox/enemies/alienUFO/alienUFO_5.png",
+                        "images/yaya/themes/mariox/enemies/alienUFO/alienUFO_6.png"
+                    ]
+                }
+            }
+        }
+    ]
+}

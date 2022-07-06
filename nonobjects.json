@@ -1,0 +1,187 @@
+{
+    "items": [
+        {
+            "uid": "notesParticles",
+            "hidden": true,
+            "type": "particle",
+            "schema": 3,
+            "animations": {
+                "default": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/misc/notesparticle1.png",
+                        "images/yaya/themes/mariox/misc/notesparticle2.png",
+                        "images/yaya/themes/mariox/misc/notesparticle3.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/foliage/pumpkin.png",
+            "uid": "pumpkin",
+            "type": "foliage",
+            "props": {
+                "zOrder": 3
+            },
+            "rubefile": "templates/yaya/foliage_160x160.json",
+            "rubefile2x": "templates/yaya/foliage_160x160_2x.json",
+            "schema": 4,
+            "animations": {
+                "default": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/foliage/pumpkin.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/foliage/shrub_tall.png",
+            "uid": "shrub_tall",
+            "type": "foliage",
+            "props": {
+                "zOrder": 3
+            },
+            "rubefile": "templates/yaya/foliage_160x240.json",
+            "rubefile2x": "templates/yaya/foliage_160x240_2x.json",
+            "schema": 4,
+            "animations": {
+                "default": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/foliage/shrub_tall.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/foliage/tree1.png",
+            "uid": "tree1",
+            "type": "foliage",
+            "props": {
+                "zOrder": 3
+            },
+            "rubefile": "templates/yaya/foliage_160x240.json",
+            "rubefile2x": "templates/yaya/foliage_160x240_2x.json",
+            "schema": 4,
+            "animations": {
+                "default": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/foliage/tree1.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/foliage/plant1_2.png",
+            "uid": "plant1",
+            "type": "foliage",
+            "props": {
+                "zOrder": 3
+            },
+            "rubefile": "templates/yaya/foliage_160x160.json",
+            "rubefile2x": "templates/yaya/foliage_160x160_2x.json",
+            "schema": 4,
+            "animations": {
+                "default": {
+                    "delay": 1.2,
+                    "sprites": [
+                        "images/yaya/themes/mariox/foliage/plant1_0.png",
+                        "images/yaya/themes/mariox/foliage/plant1_1.png",
+                        "images/yaya/themes/mariox/foliage/plant1_2.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/foliage/plant2_2.png",
+            "uid": "plant2",
+            "type": "foliage",
+            "props": {
+                "zOrder": 3
+            },
+            "rubefile": "templates/yaya/foliage_160x160.json",
+            "rubefile2x": "templates/yaya/foliage_160x160_2x.json",
+            "schema": 4,
+            "animations": {
+                "default": {
+                    "delay": 1.2,
+                    "sprites": [
+                        "images/yaya/themes/mariox/foliage/plant2_0.png",
+                        "images/yaya/themes/mariox/foliage/plant2_1.png",
+                        "images/yaya/themes/mariox/foliage/plant2_2.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/foliage/ripstone.png",
+            "uid": "ripstone",
+            "type": "foliage",
+            "props": {
+                "zOrder": 3
+            },
+            "rubefile": "templates/yaya/foliage_160x160.json",
+            "rubefile2x": "templates/yaya/foliage_160x160_2x.json",
+            "schema": 4,
+            "animations": {
+                "default": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/foliage/ripstone.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/foliage/rock.png",
+            "uid": "rock",
+            "type": "foliage",
+            "props": {
+                "zOrder": 4
+            },
+            "rubefile": "templates/yaya/foliage_160x160.json",
+            "rubefile2x": "templates/yaya/foliage_160x160_2x.json",
+            "schema": 4,
+            "animations": {
+                "default": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/foliage/rock.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/foliage/shrub.png",
+            "uid": "shrub",
+            "type": "foliage",
+            "props": {
+                "zOrder": 3
+            },
+            "rubefile": "templates/yaya/foliage_160x160.json",
+            "rubefile2x": "templates/yaya/foliage_160x160_2x.json",
+            "schema": 4,
+            "animations": {
+                "default": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/foliage/shrub.png"
+                    ]
+                }
+            }
+        },
+        {
+            "icon": "images/yaya/themes/mariox/foliage/tree2.png",
+            "uid": "tree2",
+            "type": "foliage",
+            "props": {
+                "zOrder": 3
+            },
+            "rubefile": "templates/yaya/foliage_160x240.json",
+            "rubefile2x": "templates/yaya/foliage_160x240_2x.json",
+            "schema": 4,
+            "animations": {
+                "default": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/foliage/tree2.png"
+                    ]
+                }
+            }
+        }
+    ]
+}

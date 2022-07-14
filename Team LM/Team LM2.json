@@ -1,0 +1,75 @@
+{
+    "items": [
+        {
+            "icon": "images/yaya/themes/mariox/items/mech.png",
+            "uid": "mechsuitPickup",
+            "type": "item",
+            "subtype": "reward",
+            "name": "mech suit pickup",
+            "hidden": false,
+            "schema": 3,
+            "max": 3,
+            "fxDead": "images/yaya/sounds/pickup.mp3",
+            "behaviors": [
+                {
+                    "type": "bouncy",
+                    "vely": 10
+                },
+                {
+                    "type": "move",
+                    "velx": -2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "newObject",
+                    "uid": "mechsuit",
+                    "amount": 1
+                }
+            ],
+            "rubefile": "templates/yaya/item_pickup_mech.json"
+        },
+        {
+            "icon": "",
+            "uid": "mechsuit",
+            "type": "item",
+            "subtype": "mechsuit",
+            "name": "mech suit",
+            "hidden": true,
+            "schema": 3,
+            "health": 3,
+            "rubefile": "templates/yaya/item_mech.json",
+            "animations": {
+                "stand": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/armor/mech/mechgunwalk3.png"
+                    ]
+                },
+                "jump": {
+                    "sprites": [
+                        "images/yaya/themes/mariox/armor/mech/mechjump1.png"
+                    ]
+                },
+                "gunshoot": {
+                    "delay": 0.1,
+                    "sprites": [
+                        "images/yaya/themes/mariox/armor/weapons/bfg1.png",
+                        "images/yaya/themes/mariox/armor/weapons/bfg2.png",
+                        "images/yaya/themes/mariox/armor/weapons/bfg3.png",
+                        "images/yaya/themes/mariox/armor/weapons/bfg1.png"
+                    ]
+                },
+                "walk": {
+                    "delay": 0.15,
+                    "sprites": [
+                        "images/yaya/themes/mariox/armor/mech/mechgunwalk1.png",
+                        "images/yaya/themes/mariox/armor/mech/mechgunwalk2.png",
+                        "images/yaya/themes/mariox/armor/mech/mechgunwalk3.png",
+                        "images/yaya/themes/mariox/armor/mech/mechgunwalk4.png"
+                    ]
+                }
+            }
+        }
+    ]
+}
